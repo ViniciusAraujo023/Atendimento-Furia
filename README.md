@@ -32,5 +32,20 @@ requirements.txt # Dependências do projeto
 README.md        # Documentação do bot  
 ```
 
-##🔧 Como Instalar e Executar
+## 🔧 Como Instalar e Executar
+1. Clone o repositório;
+2. Acesse a pasta do projeto;
+3. Instale as dependências:
+```python
+pip install -r requirements.txt
+```
+4. Execute o bot:
+```python
+python bot.py
+```
 
+## ✏️ Como Configurar o Bot
+  Para usar este bot, você precisa de um Token de API do Telegram, que pode ser obtido com o @BotFather no Telegram.
+
+# Feito por:
+Vinícius Araújo de Almeida - https://www.linkedin.com/in/vinicius-araujo-de-almeida/

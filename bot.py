@@ -3,7 +3,7 @@ import telebot, requests
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton  
 
 # Criação do bot do Telegram com o token fornecido
-bot = telebot.TeleBot('7987297251:AAECk9FEqmXncEINIKjUnwuO5hbK4opeW1w')
+bot = telebot.TeleBot('TELEGRAM_TOKEN')
 
 # Função para tratar mensagens de texto enviadas ao bot
 @bot.message_handler(content_types=['text'])  
